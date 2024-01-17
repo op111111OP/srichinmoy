@@ -1,0 +1,25 @@
+.header {
+  width: 940px;
+  height: 70px;
+  padding: 0 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box_telephone {
+  display: flex;
+  gap: 5px;
+}
+.h1 {
+  color: #acacac;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.box_logo {
+  display: flex;
+  align-items: center;
+}

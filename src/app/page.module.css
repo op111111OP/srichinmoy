@@ -1,0 +1,149 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image_start {
+  width: auto;
+  height: auto;
+}
+.image_start_box {
+  position: relative;
+}
+.image_start_test {
+  margin: 50px 0 0 0;
+  color: #fff;
+  font-family: Mohave;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.image_start_test_box {
+  position: absolute;
+
+  width: 940px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.image_start_button_box {
+  background: gold;
+  margin: 0;
+  position: relative;
+}
+.image_start_button {
+  cursor: pointer;
+  border-radius: 20px;
+  color: #fff;
+  padding: 9px 27px;
+  position: absolute;
+  border: 1px solid hsla(0, 0%, 100%, 0.29);
+  background-color: hsla(0, 0%, 100%, 0.27);
+  box-shadow: 0 0 20px 2px hsla(0, 0%, 100%, 0.67);
+  opacity: 0.68;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-shadow: none;
+  animation: buto 3s ease-in 0s;
+}
+.image_start_button:hover {
+  background-color: hsla(0, 0%, 100%, 0.327);
+  box-shadow: 0 0 20px 2px hsla(0, 0%, 100%, 0.714);
+  opacity: 0.7;
+}
+.buto1 {
+  top: 170px;
+  left: 50px;
+}
+.buto2 {
+  top: 120px;
+  left: 250px;
+}
+.buto3 {
+  top: 60px;
+  left: 100px;
+}
+@keyframes buto {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.68;
+  }
+}
+.definition_text_box {
+  margin: 30px 0px;
+  gap: 30px;
+  width: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.definition_text_box b {
+  font-size: 30px;
+}
+/* image_end_box */
+.image_end_box {
+  position: relative;
+}
+.image_end_test_box {
+  position: absolute;
+  color: #fcfbfb;
+  width: 940px;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.image_end_test_p {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 0px 0px 0px;
+}
+.image_end_test_h4 {
+  font-size: 20px;
+}
+.image_end_test_h3 {
+  font-size: 38px;
+}
+/* image_addressс */
+.image_addressс {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.image_addressс_box {
+  width: 653px;
+}
+.image_maps_box {
+  width: 940px;
+  height: auto;
+}
+@media screen and (max-width: 940px) {
+  .image_start {
+    width: 940px;
+    /* margin: 0 0 0 -20vw; */
+  }
+  .image_end {
+    width: 940px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .image_start {
+    margin: 0 0 0 -20vw;
+  }
+}
