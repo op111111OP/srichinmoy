@@ -16,9 +16,9 @@ export default function Header() {
         </div>
         <h1 className={style.h1}>SriChinmoy Sumy</h1>
       </Link>
-      <a href="tel:0800200100" className={style.box_telephone}>
+      <a href="tel:0991703480" className={style.box_telephone}>
         <BsTelephoneFill />
-        <div className={style.telephone}>+38 096 699 13 85</div>
+        <div className={style.telephone}>+380 99 170 34 80</div>
       </a>
     </header>
   );

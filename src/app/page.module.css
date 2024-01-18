@@ -12,7 +12,7 @@
   position: relative;
 }
 .image_start_test {
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 20px;
   color: #fff;
   font-family: Mohave;
   font-size: 24px;
@@ -22,12 +22,11 @@
 }
 .image_start_test_box {
   position: absolute;
-
   width: 940px;
   height: 100%;
   top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
+  right: 50%;
+  transform: translate(50%, 0);
 }
 
 .image_start_button_box {
@@ -96,6 +95,7 @@
   position: relative;
 }
 .image_end_test_box {
+  padding-left: 2px;
   position: absolute;
   color: #fcfbfb;
   width: 940px;
@@ -136,14 +136,105 @@
 @media screen and (max-width: 940px) {
   .image_start {
     width: 940px;
-    /* margin: 0 0 0 -20vw; */
   }
   .image_end {
     width: 940px;
   }
+  .image_start_test_box {
+    width: 450px;
+    right: 51vw;
+    transform: translate(0, 0);
+  }
+  .image_start_test {
+    margin: 20px 0 0 10px;
+    font-size: 18px;
+  }
+  .image_start_button {
+    font-size: 1.5vw;
+  }
+  .buto1 {
+    top: 17vw;
+    left: 2vw;
+  }
+  .buto2 {
+    top: 10vw;
+    left: 15vw;
+  }
+  .buto3 {
+    top: 3vw;
+    left: 7vw;
+  }
+  .definition_text_box {
+    font-size: 14px;
+    width: 90vw;
+  }
+  .definition_text_box b {
+    font-size: 24px;
+  }
+  .image_end_test_box {
+    max-width: 98vw;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 0px 0px 5px 2px;
+  }
+  .image_end_test_p {
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+  }
 }
 @media screen and (max-width: 640px) {
   .image_start {
-    margin: 0 0 0 -20vw;
+    margin: 0 0 0 -30vw;
+  }
+  .image_start_test_box {
+    right: 59vw;
+    width: 320px;
+  }
+  .image_start_button {
+    font-size: 10px;
+  }
+  .buto1 {
+    top: 150px;
+    left: 2vw;
+    color: #000;
+  }
+  .buto2 {
+    top: 100px;
+    left: 8vw;
+  }
+  .buto3 {
+    top: 60px;
+    left: 6vw;
+  }
+  .image_end_test_h3 {
+    font-size: 21px;
+  }
+  .image_end_test_h4 {
+    font-size: 18px;
+  }
+  .image_end_test_p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .image_start_test_box {
+    right: 72vw;
+    width: 320px;
+  }
+  .image_start_button {
+    font-size: 10px;
+  }
+  .buto1 {
+    left: 0.5vw;
+  }
+  .image_end_test_h3 {
+    font-size: 16px;
+  }
+  .image_end_test_h4 {
+    font-size: 13px;
+  }
+  .image_end_test_p {
+    font-size: 13px;
   }
 }

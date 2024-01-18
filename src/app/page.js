@@ -16,7 +16,7 @@ export default function Home() {
             width={2000}
             height={673}
             style={{
-              minWidth: "100%",
+              maxWidth: "100%",
               height: "auto",
             }}
           />
