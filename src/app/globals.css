@@ -125,6 +125,12 @@ a {
   display: block;
   width: 100%;
 }
+@media screen and (max-width: 940px) {
+  .swiper {
+    width: 100vw;
+    height: auto;
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   html {
