@@ -15,6 +15,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href={process.env.FAVICON} />
+        <meta
+          name="google-site-verification"
+          content="OGxU5mrsl2SkTTOoF2AcEUl06uZzYwnzz6_ytnEuCUM"
+        />
       </head>
 
       <body className={inter.className}>
