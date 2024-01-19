@@ -111,6 +111,7 @@ a {
 }
 /* slide */
 .swiper {
+  user-select: none;
   width: 940px;
   height: 703px;
   margin: 0px 0px 30px 0px;
