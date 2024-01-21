@@ -28,6 +28,11 @@ export default function App() {
         spaceBetween={30}
         effect={"fade"}
         navigation={true}
+        autoplay={{
+          delay: 250,
+          disableOnInteraction: false,
+        }}
+        loop={true}
         pagination={{
           clickable: true,
         }}
